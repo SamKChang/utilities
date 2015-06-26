@@ -33,4 +33,9 @@ git remote set-url upload_name git@github.com:user_name/repo_name.git
 set up default push
 git config --global push.default current
 
+workflow: 
+git add *
+git commit -m "message"
+git push
+
 NOTE: if the repo_name and local folder name are different, default "git push" command will require remote name to upload with "push.config current" setupt
