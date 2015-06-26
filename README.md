@@ -34,3 +34,11 @@ set up default push
 git config --global push.default current
 
 NOTE: if the repo_name and local folder name are different, default "git push" command will require remote name to upload with "push.config current" setupt
+
+NOTE: for default "git pull" command, .git/config needs to be modified to specify remote and branch by adding
+
+[branch "master"]
+
+    remote = origin
+    
+    merge = refs/heads/master
