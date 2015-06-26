@@ -36,7 +36,7 @@ git config --global push.default current
 workflow: 
 git add *
 git commit -m "message"
-git push
+git push or pull
 
 NOTE: if the repo_name and local folder name are different, default "git push" command will require remote name to upload with "push.config current" setupt
 
