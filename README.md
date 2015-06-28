@@ -52,3 +52,5 @@ NOTE: for default "git pull" command, .git/config needs to be modified to specif
     remote = origin
     
     merge = refs/heads/master
+
+proper format?
